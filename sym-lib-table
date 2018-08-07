@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Driver_LED_mod)(type Legacy)(uri ${KICAD_SYMBOL_DIR_GIT}/Driver_LED.lib)(options "")(descr "LED Drivers - new"))
+)
