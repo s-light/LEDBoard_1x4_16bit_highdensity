@@ -15,12 +15,12 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Driver_LED_mod:TLC5971RGET U1
+L Driver_LED_mod:TLC5971PWP U1
 U 1 1 5B6971A6
 P 4650 3850
-F 0 "U1" H 4150 4850 50  0000 C CNN
-F 1 "TLC5971PWP" H 5000 4850 50  0000 C CNN
-F 2 "Package_DFN_QFN:VQFN-24-1EP_4x4mm_P0.5mm_EP2.45x2.45mm_ThermalVias" H 4100 5000 50  0001 L CNN
+F 0 "U1" H 4100 4850 50  0000 L CNN
+F 1 "TLC5971PWP" H 4700 4850 50  0000 L CNN
+F 2 "Package_SO:HTSSOP-20-1EP_4.4x6.5mm_P0.65mm_EP3.4x6.5mm_ThermalVias" H 4100 5000 50  0001 L CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tlc5971.pdf" H 4650 3550 50  0001 C CNN
 	1    4650 3850
 	1    0    0    -1  
