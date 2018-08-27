@@ -160,7 +160,7 @@ F 1 "100n" H 3842 4455 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3750 4500 50  0001 C CNN
 F 3 "~" H 3750 4500 50  0001 C CNN
 	1    3750 4500
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Device:R R1
@@ -389,4 +389,6 @@ Wire Wire Line
 Wire Wire Line
 	7550 5350 7550 5150
 Connection ~ 7550 5150
+Text Label 3750 3550 0    50   ~ 0
+IREF
 $EndSCHEMATC
