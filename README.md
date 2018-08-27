@@ -3,7 +3,7 @@
 <!--lint disable list-item-indent-->
 
 # LED-Board 1x4 16bit high density
-<!-- ![LED-Board front](./export/3d/LEDBoard_4x4_16bit_3d_rendering.png) -->
+![LED-Board front](./export/3d/topfront_3d.png)
 
 a LED Board that can be combined seamlessly to bigger lines with very high LED density (= small pixel-pitch).  
 It uses the [TI TLC5971](http://www.ti.com/product/TLC5971) Constant-Current LED-Driver Chip with 16bit dimming resolution (HTSSOP-20 housing).  
