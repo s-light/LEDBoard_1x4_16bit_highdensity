@@ -15,15 +15,15 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Driver_LED_mod:TLC5971PWP U1
+L Driver_LED_mod:TLC5971RGET U1
 U 1 1 5B6971A6
 P 4650 3850
 F 0 "U1" H 4150 4850 50  0000 C CNN
 F 1 "TLC5971PWP" H 5000 4850 50  0000 C CNN
-F 2 "Package_SO:HTSSOP-20-1EP_4.4x6.5mm_P0.65mm_EP3.4x6.5mm_ThermalVias" H 4100 5000 50  0001 L CNN
+F 2 "Package_DFN_QFN:VQFN-24-1EP_4x4mm_P0.5mm_EP2.45x2.45mm_ThermalVias" H 4100 5000 50  0001 L CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tlc5971.pdf" H 4650 3550 50  0001 C CNN
 	1    4650 3850
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J3
@@ -31,10 +31,10 @@ U 1 1 5B697371
 P 5250 6300
 F 0 "J3" H 5330 6292 50  0000 L CNN
 F 1 "power" H 5330 6201 50  0000 L CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 5250 6300 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 5250 6300 50  0001 C CNN
 F 3 "~" H 5250 6300 50  0001 C CNN
 	1    5250 6300
-	-1   0    0    1
+	-1   0    0    1   
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J1
@@ -42,10 +42,10 @@ U 1 1 5B697555
 P 3300 3350
 F 0 "J1" H 3220 3025 50  0000 C CNN
 F 1 "signal_in" H 3220 3116 50  0000 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 3300 3350 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 3300 3350 50  0001 C CNN
 F 3 "~" H 3300 3350 50  0001 C CNN
 	1    3300 3350
-	-1   0    0    1
+	-1   0    0    1   
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J2
@@ -53,10 +53,10 @@ U 1 1 5B69763E
 P 6000 3250
 F 0 "J2" H 6080 3242 50  0000 L CNN
 F 1 "signal_out" H 6080 3151 50  0000 L CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 6000 3250 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 6000 3250 50  0001 C CNN
 F 3 "~" H 6000 3250 50  0001 C CNN
 	1    6000 3250
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	3500 3250 3950 3250
@@ -83,7 +83,7 @@ F 1 "GND" H 4555 4777 50  0000 C CNN
 F 2 "" H 4550 4950 50  0001 C CNN
 F 3 "" H 4550 4950 50  0001 C CNN
 	1    4550 4950
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0102
@@ -94,7 +94,7 @@ F 1 "GND" H 4755 4777 50  0000 C CNN
 F 2 "" H 4750 4950 50  0001 C CNN
 F 3 "" H 4750 4950 50  0001 C CNN
 	1    4750 4950
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0103
@@ -105,7 +105,7 @@ F 1 "GND" H 5455 6127 50  0000 C CNN
 F 2 "" H 5450 6300 50  0001 C CNN
 F 3 "" H 5450 6300 50  0001 C CNN
 	1    5450 6300
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:VCC #PWR0104
@@ -116,7 +116,7 @@ F 1 "VCC" H 5467 6373 50  0000 C CNN
 F 2 "" H 5450 6200 50  0001 C CNN
 F 3 "" H 5450 6200 50  0001 C CNN
 	1    5450 6200
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:VCC #PWR0105
@@ -127,7 +127,7 @@ F 1 "VCC" H 4667 2923 50  0000 C CNN
 F 2 "" H 4650 2750 50  0001 C CNN
 F 3 "" H 4650 2750 50  0001 C CNN
 	1    4650 2750
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:VCC #PWR0106
@@ -138,7 +138,7 @@ F 1 "VCC" H 3767 4573 50  0000 C CNN
 F 2 "" H 3750 4400 50  0001 C CNN
 F 3 "" H 3750 4400 50  0001 C CNN
 	1    3750 4400
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0107
@@ -149,7 +149,7 @@ F 1 "GND" H 3755 4427 50  0000 C CNN
 F 2 "" H 3750 4600 50  0001 C CNN
 F 3 "" H 3750 4600 50  0001 C CNN
 	1    3750 4600
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C1
@@ -160,7 +160,7 @@ F 1 "100n" H 3842 4455 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3750 4500 50  0001 C CNN
 F 3 "~" H 3750 4500 50  0001 C CNN
 	1    3750 4500
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R1
@@ -171,7 +171,7 @@ F 1 "2k7" H 3820 3655 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3680 3700 50  0001 C CNN
 F 3 "~" H 3750 3700 50  0001 C CNN
 	1    3750 3700
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	3750 3550 3950 3550
@@ -184,7 +184,7 @@ F 1 "GND" H 3755 3677 50  0000 C CNN
 F 2 "" H 3750 3850 50  0001 C CNN
 F 3 "" H 3750 3850 50  0001 C CNN
 	1    3750 3850
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:VCC #PWR0109
@@ -195,7 +195,7 @@ F 1 "VCC" H 5367 3223 50  0000 C CNN
 F 2 "" H 5350 3050 50  0001 C CNN
 F 3 "" H 5350 3050 50  0001 C CNN
 	1    5350 3050
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Text Label 5350 3550 0    50   ~ 0
 led_0_r
@@ -249,10 +249,10 @@ U 1 1 5B69B7B8
 P 7150 2400
 F 0 "D1" H 7150 2897 50  0000 C CNN
 F 1 "led_0" H 7150 2806 50  0000 C CNN
-F 2 "LED_SMD:LED_Avago_PLCC6_3x2.8mm" H 7150 2350 50  0001 C CNN
+F 2 "LEDs_SMD_NICHIA:LED_NSSM124_PCBEdge" H 7150 2350 50  0001 C CNN
 F 3 "~" H 7150 2350 50  0001 C CNN
 	1    7150 2400
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:LED_RGB D2
@@ -260,10 +260,10 @@ U 1 1 5B69B96E
 P 7150 3300
 F 0 "D2" H 7150 3797 50  0000 C CNN
 F 1 "led_1" H 7150 3706 50  0000 C CNN
-F 2 "LED_SMD:LED_Avago_PLCC6_3x2.8mm" H 7150 3250 50  0001 C CNN
+F 2 "LEDs_SMD_NICHIA:LED_NSSM124_PCBEdge" H 7150 3250 50  0001 C CNN
 F 3 "~" H 7150 3250 50  0001 C CNN
 	1    7150 3300
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:LED_RGB D3
@@ -271,10 +271,10 @@ U 1 1 5B69BA7A
 P 7150 4250
 F 0 "D3" H 7150 4747 50  0000 C CNN
 F 1 "led_2" H 7150 4656 50  0000 C CNN
-F 2 "LED_SMD:LED_Avago_PLCC6_3x2.8mm" H 7150 4200 50  0001 C CNN
+F 2 "LEDs_SMD_NICHIA:LED_NSSM124_PCBEdge" H 7150 4200 50  0001 C CNN
 F 3 "~" H 7150 4200 50  0001 C CNN
 	1    7150 4250
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Text Label 6950 4450 2    50   ~ 0
 led_2_b
@@ -284,10 +284,10 @@ U 1 1 5B69BC3F
 P 7150 5150
 F 0 "D4" H 7150 5647 50  0000 C CNN
 F 1 "led_3" H 7150 5556 50  0000 C CNN
-F 2 "LED_SMD:LED_Avago_PLCC6_3x2.8mm" H 7150 5100 50  0001 C CNN
+F 2 "LEDs_SMD_NICHIA:LED_NSSM124_PCBEdge" H 7150 5100 50  0001 C CNN
 F 3 "~" H 7150 5100 50  0001 C CNN
 	1    7150 5150
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:VCC #PWR0110
@@ -298,7 +298,7 @@ F 1 "VCC" H 7567 2273 50  0000 C CNN
 F 2 "" H 7550 2100 50  0001 C CNN
 F 3 "" H 7550 2100 50  0001 C CNN
 	1    7550 2100
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	7550 2100 7550 2200
@@ -323,7 +323,7 @@ F 1 "VCC" H 7567 3173 50  0000 C CNN
 F 2 "" H 7550 3000 50  0001 C CNN
 F 3 "" H 7550 3000 50  0001 C CNN
 	1    7550 3000
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	7550 3000 7550 3100
@@ -348,7 +348,7 @@ F 1 "VCC" H 7567 4123 50  0000 C CNN
 F 2 "" H 7550 3950 50  0001 C CNN
 F 3 "" H 7550 3950 50  0001 C CNN
 	1    7550 3950
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	7550 3950 7550 4050
@@ -373,7 +373,7 @@ F 1 "VCC" H 7567 5023 50  0000 C CNN
 F 2 "" H 7550 4850 50  0001 C CNN
 F 3 "" H 7550 4850 50  0001 C CNN
 	1    7550 4850
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	7550 4850 7550 4950

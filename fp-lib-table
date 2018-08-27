@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name Package_SO_mod)(type KiCad)(uri ${KICAD_FOOTPRINT_DIR_GIT}/Package_SO.pretty)(options "")(descr ""))
+  (lib (name Package_DFN_QFN_mod)(type KiCad)(uri ${KICAD_FOOTPRINT_DIR_GIT}/Package_DFN_QFN.pretty)(options "")(descr ""))
+  (lib (name LEDs_SMD_NICHIA)(type KiCad)(uri /home/stefan/mydata/kicad/mylib/LEDs_SMD_NICHIA.pretty)(options "")(descr ""))
+)

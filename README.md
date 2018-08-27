@@ -24,8 +24,8 @@ The thing is designed to be hand-soldered.
 every controller chip (TLC5971) has 12 ConstantCurrent outputs. so every LED is controllable individual.
 
 ### HW
-- PCB size: 15x14x4mm
-- pixel-pitch: 4mm
+- PCB size: 12 x 8 x 3.3mm
+- pixel-pitch: 3.1mm
 - 3.8V..5.5V
 - <= 0.25A (maximum)
 
